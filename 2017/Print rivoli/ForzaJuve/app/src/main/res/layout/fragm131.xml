@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="0dp"
+    tools:context="id.web.twoh.forzajuve.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <ImageButton
+            android:layout_width="87dp"
+            android:layout_height="57dp"
+            app:srcCompat="@drawable/a1311"
+            android:scaleType="fitCenter"
+            android:id="@+id/aiu"
+            android:background="#00ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:layout_width="87dp"
+            android:layout_height="57dp"
+            app:srcCompat="@drawable/a1312"
+            android:scaleType="fitCenter"
+            android:id="@+id/babibu"
+            android:background="#00ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/aiu" />
+
+        <ImageButton
+            android:layout_width="87dp"
+            android:layout_height="57dp"
+            app:srcCompat="@drawable/a1313"
+            android:scaleType="fitCenter"
+            android:id="@+id/tatitu"
+            android:background="#00ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/babibu" />
+
+        <ImageButton
+            android:layout_width="87dp"
+            android:layout_height="57dp"
+            app:srcCompat="@drawable/a1314"
+            android:scaleType="fitCenter"
+            android:id="@+id/tststs"
+            android:background="#00ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/tatitu" />
+
+
+    </RelativeLayout>
+    </ScrollView>

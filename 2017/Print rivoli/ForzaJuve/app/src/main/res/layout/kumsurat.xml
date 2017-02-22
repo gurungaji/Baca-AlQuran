@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="id.web.twoh.forzajuve.MainActivity"
+    android:background="@drawable/bckmasjid">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/bismillah1"
+                android:id="@+id/bismillah" />
+
+            <Button
+                android:background="@drawable/skrolpiu"
+                android:text="Al-Fatihah"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:id="@+id/btnfatihah"
+                android:textSize="25sp"
+                android:textStyle="normal|bold"/>
+
+            <Button
+                android:background="@drawable/skrolpiu"
+                android:text="An-naas"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:id="@+id/btnannas"
+                android:fontFamily="sans-serif"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:background="@drawable/skrolpiu"
+                android:text="Al-Falaq"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:id="@+id/btnalfalaq"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:background="@drawable/skrolpiu"
+                android:text="Al-Ikhlas"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:id="@+id/btnalikhlas"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:background="@drawable/skrolpiu"
+                android:text="Al-Lahab"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:id="@+id/btnallahab"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold"/>
+
+            <Button
+                android:background="@drawable/skrolpiu"
+                android:text="An-Nasr"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:id="@+id/btnannasr"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
