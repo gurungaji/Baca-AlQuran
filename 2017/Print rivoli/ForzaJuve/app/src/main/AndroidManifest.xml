@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.web.twoh.forzajuve">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.Hal2"></activity>
+        <activity android:name=".activities.Hal3"></activity>
+        <activity android:name=".activities.Halhij"></activity>
+        <activity android:name=".activities.Tahap2"></activity>
+        <activity android:name=".activities.Tahap3"></activity>
+        <activity android:name=".activities.Kumpsurat"></activity>
+        <activity android:name=".activities.Tah1pem2"></activity>
+        <activity android:name=".activities.Tah1pem3"></activity>
+        <activity android:name=".activities.Tah2pem1"></activity>
+        <activity android:name=".activities.Tah2pem2"></activity>
+        <activity android:name=".activities.Tah2pem3"></activity>
+        <activity android:name=".activities.Tah2pem4"></activity>
+        <activity android:name=".activities.Tah2pem5"></activity>
+        <activity android:name=".activities.Tahpra1"></activity>
+        <activity android:name=".activities.Tahpra2"></activity>
+        <activity android:name=".activities.fatihah"></activity>
+        <activity android:name=".activities.annas"></activity>
+        <activity android:name=".activities.alfalaq"></activity>
+        <activity android:name=".activities.alikhlas"></activity>
+        <activity android:name=".activities.Allahab"></activity>
+        <activity android:name=".activities.Annasr"></activity>
+    </application>
+
+</manifest>
